@@ -14,4 +14,3 @@ datos2 <- lapply(tempDatos2, function(x) read.delim(x, header = FALSE, sep = "|"
 
 dfDatos2 <- datos2 %>% reduce(full_join)
 
-View(df)
